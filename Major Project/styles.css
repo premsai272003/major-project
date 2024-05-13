@@ -1,0 +1,47 @@
+html {
+    scroll-behavior: smooth;
+}
+        /* Add custom CSS for section gaps and full height sections */
+        .section-gap {
+            margin-bottom: 40px; /* Adjust the margin as needed */
+        }
+        .full-height-section {
+            height: 100vh;
+            min-height: 100%;
+        }
+        section {
+            border: 1px dotted rgba(0, 0, 0, 0.5); /* 50% opacity */
+            padding: 15px; /* Add some padding to separate content from border */
+        }
+        #home {
+            background-color: aquamarine;
+        }
+        #about {
+            background-color: #e5f2ff; /* Light blue */
+        }
+        #features {
+            background-color: #fff5e6; /* Light orange */
+        }
+        #testimonials {
+            background-color: #f5f5dc; /* Beige */
+        }
+        #events {
+            background-color: #e6ffe6; /* Light green */
+        }
+        #gallery {
+            background-color: #f0f0f0; /* Light gray */
+        }
+        #timeline {
+            background-color: #f9ebae; /* Pale yellow */
+        }
+        #registration {
+            background-color: #ffdab9; /* Peach */
+        }
+        #prizes {
+            background-color: #e0e0eb; /* Lavender */
+        }
+        .carousel-control-prev,
+    .carousel-control-next {
+      background: transparent !important;
+      border: none
+    }
